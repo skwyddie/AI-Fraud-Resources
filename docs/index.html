@@ -58,14 +58,68 @@
     <li><strong>Over 53% of accounting professionals</strong> were targeted with AI deepfake scams in 2024. (<a href="https://www.iaacu.org/about-us/about-iaacu/our-blog/blog/2025/01/14/5-ai-scams-set-to-surge-in-2025--what-you-need-to-know" target="_blank">IAACU</a>)</li>
   </ul>
 
+  <h2>AI Tools Used in Fraud and Social Engineering</h2>
+  <p>Modern fraud campaigns increasingly use off-the-shelf AI tools to impersonate people, generate convincing content, automate outreach, and bypass security systems. Below are categories and examples of AI tools being abused in real-world fraud and scam operations.</p>
+
+    <h3>Large Language Models (LLMs)</h3>
+    <ul>
+      <li><strong>Examples:</strong> ChatGPT, Claude, open-source LLaMA, Mistral, etc.</li>
+      <li><strong>Abuse:</strong> Generate phishing emails, malicious scripts, impersonation messages, or social engineering prompts at scale.</li>
+    </ul>
+
+    <h3>Voice Cloning / Text-to-Speech (TTS)</h3>
+    <ul>
+      <li><strong>Examples:</strong> ElevenLabs, Descript Overdub, Real-Time Voice Cloning, Respeecher</li>
+      <li><strong>Abuse:</strong> Clone voices of executives, relatives, or public figures to create scam calls with high emotional realism.</li>
+    </ul>
+
+    <h3>Deepfake Video Generation</h3>
+    <ul>
+      <li><strong>Examples:</strong> DeepFaceLab, Faceswap, First-Order-Motion-Model, Wav2Lip</li>
+      <li><strong>Abuse:</strong> Fake video instructions from a CEO or fabricated "evidence" in video form to influence or pressure targets.</li>
+    </ul>
+
+    <h3>AI Toolchains (Chained Modalities)</h3>
+    <ul>
+      <li><strong>Examples:</strong> LLM → TTS → Lip-sync → Fake call or video</li>
+      <li><strong>Abuse:</strong> Rapid production of impersonation content combining text, voice, and video for highly convincing attacks.</li>
+    </ul>
+
+    <h3>Phishing-as-a-Service (PhaaS)</h3>
+    <ul>
+      <li><strong>Examples:</strong> SpamGPT-style dark-web kits, automated email optimization tools</li>
+      <li><strong>Abuse:</strong> Turnkey generation of fake login pages, invoices, or SMS/email lures optimized with AI to increase victim click-through.</li>
+    </ul>
+
+    <h3>AI-Generated Malware & Polymorphic Scripts</h3>
+    <ul>
+      <li><strong>Examples:</strong> GPT-style prompts to generate obfuscated code, zero-click loaders, evasion tactics</li>
+      <li><strong>Abuse:</strong> Dynamic code generation and mutation to evade antivirus and detection systems.</li>
+    </ul>
+
+    <h3>Recon and Behavioral Profiling</h3>
+    <ul>
+      <li><strong>Examples:</strong> OSINT tools + AI summarizers, social graph mapping, GitHub/LinkedIn scraping</li>
+      <li><strong>Abuse:</strong> Extract personal traits, tone, writing style, voice cadence, and relationships to create hyper-personalized fraud attempts.</li>
+    </ul>
+
+   <h3>Mitigation Strategies</h3>
+   <ul>
+      <li>Enforce multi-step verification for financial requests and sensitive actions</li>
+      <li>Educate teams on emotional manipulation: urgency, secrecy, authority, and fear</li>
+      <li>Deploy voice liveness detection, anomaly-based fraud models, and anti-deepfake tools</li>
+      <li>Use DMARC, SPF, and DKIM to protect email domains from spoofing</li>
+      <li>Prefer behavioral and contextual security over static indicators like typos or accents</li>
+    </ul>
+
+<p><em>These tools are not inherently malicious — but their misuse has democratized fraud at scale. Organizations must adapt by hardening workflows and educating people about psychological manipulation tactics empowered by AI.</em></p>
+
+
   <h2>Research & Detection Techniques</h2>
   <ul>
     <li><a href="https://arxiv.org/abs/2501.07033" target="_blank">GAN-Based Detection of AI Deepfakes in Online Payments (2025)</a></li>
     <li><a href="https://arxiv.org/abs/2504.03750" target="_blank">Hybrid Transformer + RNN Fraud Detection (2025)</a></li>
     <li><a href="https://arxiv.org/abs/2508.16915" target="_blank">Spiking Neural Networks for Fair, Explainable Fraud Detection</a></li>
-    <li><a href="https://arxiv.org/abs/2407.15847" target="_blank">LLMmap: Mapping Vulnerabilities in Model-Context Protocols</a></li>
-    <li><a href="https://www.pillar.security/blog/the-security-risks-of-model-context-protocol-mcp" target="_blank">Security Risks of MCP (Model Context Protocol)</a></li>
-    <li><a href="https://securelist.com/model-context-protocol-for-ai-integration-abused-in-supply-chain-attacks/117473/" target="_blank">Kaspersky on MCP abuse in supply chain attacks</a></li>
   </ul>
 
   <h2>Tools & Prevention Approaches</h2>
@@ -119,7 +173,7 @@
 <ul>
   <li><strong>Establish trusted channels:</strong> Always verify unexpected communications (calls, emails, payment requests).</li>
   <li><strong>Pause before responding:</strong> Take time to reflect or contact a trusted person — urgency is often a red flag.</li>
-  <li><strong>Recognize social engineering cues:</strong> Authority, fear, secrecy, and emotional pressure are common themes.</li>
+  <li><strong>Recognize social engineering cues:</strong> <a href="https://library.mosse-institute.com/articles/2023/07/social-engineering-principles.html">Authority, fear, secrecy, and emotional pressure are common themes.</a> </li>
   <li><strong>Stay informed:</strong> Learn how fraud evolves. Use up-to-date browser, email, and phone protections.</li>
 </ul>
 
