@@ -48,7 +48,7 @@
     A curated research archive of AI-enabled fraud, deepfake threats, real-world attacks, detection mechanisms, and global response strategies.
   </p>
 
-  <h2>📊 Key Statistics & Trends</h2>
+  <h2>Key Statistics & Trends</h2>
   <ul>
     <li><strong>$16.6B in fraud losses</strong> reported by FBI in 2024 — a 33% YoY increase. (<a href="https://www.ic3.gov/Media/PDF/AnnualReport/2024_IC3Report.pdf" target="_blank">FBI IC3 Report</a>)</li>
     <li><strong>Human detection of deepfakes</strong> is only 62% for images and <strong>24.5%</strong> for video. (<a href="https://www.eftsure.com/statistics/deepfake-statistics/" target="_blank">Eftsure</a>)</li>
@@ -58,7 +58,7 @@
     <li><strong>Over 53% of accounting professionals</strong> were targeted with AI deepfake scams in 2024. (<a href="https://www.iaacu.org/about-us/about-iaacu/our-blog/blog/2025/01/14/5-ai-scams-set-to-surge-in-2025--what-you-need-to-know" target="_blank">IAACU</a>)</li>
   </ul>
 
-  <h2>🎓 Research & Detection Techniques</h2>
+  <h2>Research & Detection Techniques</h2>
   <ul>
     <li><a href="https://arxiv.org/abs/2501.07033" target="_blank">GAN-Based Detection of AI Deepfakes in Online Payments (2025)</a></li>
     <li><a href="https://arxiv.org/abs/2504.03750" target="_blank">Hybrid Transformer + RNN Fraud Detection (2025)</a></li>
@@ -68,7 +68,7 @@
     <li><a href="https://securelist.com/model-context-protocol-for-ai-integration-abused-in-supply-chain-attacks/117473/" target="_blank">Kaspersky on MCP abuse in supply chain attacks</a></li>
   </ul>
 
-  <h2>🛠️ Tools & Prevention Approaches</h2>
+  <h2>Tools & Prevention Approaches</h2>
   <ul>
     <li><strong>ScamFlag</strong> – real-time scam detection in banking apps. (<a href="https://www.threatmark.com/how-ai-is-redefining-fraud-prevention-in-2025/" target="_blank">ThreatMark</a>)</li>
     <li><strong>Google Cloud AML</strong> – network-level anti-money laundering using AI. (<a href="https://security.googleblog.com/2025/03/new-ai-powered-scam-detection-features.html" target="_blank">Google Security Blog</a>)</li>
@@ -78,22 +78,69 @@
     <li><a href="https://www.rstreet.org/commentary/update-on-2025-state-legislation-to-regulate-election-deepfakes/" target="_blank">R Street: Election Deepfake Legislation</a></li>
   </ul>
 
-  <h2>🧠 Deep Dive: Notes from M3AAWG Research</h2>
+  <h2>Research Notes</h2>
   <p><strong>AI-powered threats:</strong> Unlike fixed-code malware, AI malware adapts in real time to its environment. Polymorphic phishing tactics generate new payloads every 15 seconds. Accent normalizers and voice/video clones make attacks feel real.</p>
   <p><strong>Social Engineering remains dominant:</strong> AI scales persuasion. Core tactics (urgency, impersonation, fear) still underpin the most successful scams.</p>
   <p><strong>Synthetic identity fraud:</strong> Blends real + fake data into new personas used for loans, KYC attacks, and employment scams. Deloitte estimates $23B in synthetic ID losses by 2030.</p>
   <p><strong>Detection models must adapt:</strong> Behavioral profiling, real-time anomaly detection, and consent-based privacy-preserving fraud detection are key future strategies.</p>
   <p><strong>AI does not replace deception—it enhances it.</strong></p>
 
-  <h2>📢 Notable Case Examples & Demos</h2>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=NQbbAoP_zEg&t=630s" target="_blank">Malicious MCP Server Demo (YouTube)</a> and <a href="https://github.com/alejandro-ao/demo-malicous-mcp-server" target="_blank">Code Repo</a></li>
-    <li><a href="https://glama.ai/mcp/servers/@kenhuangus/mcp-vulnerable-server-demo" target="_blank">MCP Vulnerable Server Example</a></li>
-    <li><a href="https://github.com/harishsg993010/damn-vulnerable-MCP-server" target="_blank">Damn Vulnerable MCP Server</a> and <a href="https://www.youtube.com/watch?v=4BI7VWfDVQE" target="_blank">Demo Video</a></li>
-    <li><a href="https://invariantlabs.ai/blog/mcp-github-vulnerability" target="_blank">Invariant Labs: MCP GitHub Vulnerability</a></li>
-    <li><a href="https://github.com/knostic/MCP-Scanner" target="_blank">MCP Vulnerability Scanner (GitHub)</a></li>
-  </ul>
+  <h2>Policy & Regulation Insights</h2>
+<ul>
+  <li><strong>Focus regulation on deployment, not development:</strong> Let researchers experiment, but regulate when tools are deployed at scale.</li>
+  <li><strong>Risk-tiered frameworks:</strong> High-risk AI applications (e.g. biometric fraud, identity spoofing) should face stricter oversight than creative or low-risk applications.</li>
+  <li><strong>Regulate outcomes, not algorithms:</strong> Don’t regulate the internal design of models — focus on impact (harm, bias, deception).</li>
+  <li><strong>Promote open standards:</strong> Encourage transparency via model cards, watermarking, red-teaming frameworks.</li>
+  <li><strong>Support innovation sandboxes:</strong> Enable limited, permissioned deployment environments for testing AI in safety-critical industries.</li>
+</ul>
 
-  <h2>⚖️ Policy & Regulation Insights</h2>
-  <ul>
-    <li><strong>Focus on
+<h2>Balancing Privacy & Protection</h2>
+<ul>
+  <li><strong>Federated learning:</strong> Models detect fraud patterns across users/devices without centralizing sensitive data.</li>
+  <li><strong>On-device detection:</strong> Email clients, browsers, and phones now deploy local AI models for scam/fraud detection.</li>
+  <li><strong>Differential privacy:</strong> Sharing anonymized behavior patterns while preserving user confidentiality.</li>
+  <li><strong>Minimized data collection:</strong> Flag anomalies without logging private conversations.</li>
+  <li><strong>User agency:</strong> Clear disclosures, opt-ins, and access to explainability tools must be core to all detection systems.</li>
+</ul>
+
+<h2>Psychological Manipulation & Mass Deception</h2>
+<p>When anyone can fake anything, the risk isn’t just fraud — it's the erosion of shared reality.</p>
+<ul>
+  <li><strong>Hyper-personalized attacks:</strong> AI allows attackers to scrape and generate messaging tuned to an individual’s tone, relationships, and behavior.</li>
+  <li><strong>Mass influence operations:</strong> Deepfakes, fake personas, and AI-generated content can flood discourse and confuse public consensus.</li>
+  <li><strong>Believability crisis:</strong> If deepfakes become unrecognizable, people may stop trusting real content — a critical threat to journalism, elections, and civil society.</li>
+</ul>
+
+<blockquote>
+  “The future will be shaped not by those who fear AI, or those who blindly embrace it — but by those who understand it, and insist on using it responsibly.”
+</blockquote>
+
+<h2>Best Practices for Individuals</h2>
+<ul>
+  <li><strong>Establish trusted channels:</strong> Always verify unexpected communications (calls, emails, payment requests).</li>
+  <li><strong>Pause before responding:</strong> Take time to reflect or contact a trusted person — urgency is often a red flag.</li>
+  <li><strong>Recognize social engineering cues:</strong> Authority, fear, secrecy, and emotional pressure are common themes.</li>
+  <li><strong>Stay informed:</strong> Learn how fraud evolves. Use up-to-date browser, email, and phone protections.</li>
+</ul>
+
+<h2>References & Further Reading</h2>
+<ul>
+  <li><a href="https://www.eftsure.com/statistics/deepfake-statistics/" target="_blank">Deepfake Stats (Eftsure)</a></li>
+  <li><a href="https://deepstrike.io/blog/deepfake-statistics-2025" target="_blank">Voice Cloning Accuracy – DeepStrike 2025</a></li>
+  <li><a href="https://www.entrust.com/resources/reports/identity-fraud-report" target="_blank">Entrust Identity Fraud Report</a></li>
+  <li><a href="https://www.ic3.gov/Media/PDF/AnnualReport/2024_IC3Report.pdf" target="_blank">FBI IC3 2024 Report</a></li>
+  <li><a href="https://www.feedzai.com/wp-content/uploads/2025/04/Feedzai_Report_State-of-AI.pdf" target="_blank">Feedzai: State of AI in Fraud</a></li>
+  <li><a href="https://www.threatmark.com/how-ai-is-redefining-fraud-prevention-in-2025/" target="_blank">ThreatMark: AI & Fraud 2025</a></li>
+  <li><a href="https://www.rstreet.org/commentary/update-on-2025-state-legislation-to-regulate-election-deepfakes/" target="_blank">R Street: Election Deepfakes Regulation</a></li>
+  <li><a href="https://www.iaacu.org/about-us/about-iaacu/our-blog/blog/2025/01/14/5-ai-scams-set-to-surge-in-2025--what-you-need-to-know" target="_blank">IAACU: AI Scams 2025</a></li>
+  <li><a href="https://www.idrnd.ai/voice-anti-spoofing/" target="_blank">Voice Anti-Spoofing (ID R&D)</a></li>
+  <li><a href="https://www.pindrop.com/capability/liveness/" target="_blank">Pindrop: Liveness Detection</a></li>
+</ul>
+
+<footer>
+  <p>Last updated: October 2025. Curated by <a href="https://github.com/skwyddie" target="_blank">@skwyddie</a>.</p>
+  <p>Feel free to fork or contribute more citations via <a href="https://github.com/skwyddie/AI-Fraud-Resources" target="_blank">GitHub</a>.</p>
+</footer>
+
+</body>
+</html>
